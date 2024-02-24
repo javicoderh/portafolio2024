@@ -1,5 +1,5 @@
 import { fetchRequestHandler } from "@trpc/server/adapters/fetch";
-import { appRouter } from "@/server";
+import { appRouter } from "@/lib";
 import { getServerSession } from "next-auth/next";
 import { options } from "../../auth/[...nextauth]/options";
 
