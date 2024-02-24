@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import TrpcProvider from "./_trpc/TrpcProvider";
+import AuthProvider from "./_context/AuthProvider";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -11,12 +13,22 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <AuthProvider>
+          <TrpcProvider>
+            <header className="bg-gray-700 p-4 mt-3">
+              <h1 className="text-gray-100">Javier Bravo Zapico</h1>
+              <h2 className="text-gray-100">Frontend Developer</h2>  
+            </header>
+            {children}
+            </TrpcProvider>
+        </AuthProvider>
+      </body>
     </html>
   );
 }
