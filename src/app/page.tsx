@@ -19,6 +19,7 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-start justify-between p-24">
       <div className="icons-container">
         <h2 className="text-gray-700">Main stack</h2>
+        <h3 className="text-gray-600">click on the icon to see description</h3>  
         {Object.entries(images).map(([key, {src, width}]) => (
           <Image key={key} className={`${key}-icon`} src={src} width={width} height={200} alt="" />
         ))}
