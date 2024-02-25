@@ -16,6 +16,15 @@
   }
 }
 
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 body {
 background-color: rgb(255, 239, 229)
 }
@@ -67,5 +76,9 @@ overflow: hidden;
 transform: scaleX(0.8);
 padding: 3px;
 border: solid rgb(34, 34, 34) 3px;
+}
+
+.react-icon {
+animation: rotate 6s linear infinite;
 }
 
