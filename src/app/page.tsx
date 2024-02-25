@@ -8,7 +8,7 @@ import react from '../../public/react.svg';
 export default function Home() {
   
   const images = {
-    next: {src: next, width: 200},
+    next: {src: next, width: 150},
     rust: {src: rust, width: 150}, 
     postgres: {src: postgres, width: 150}, 
     tailwind: {src: tailwind, width: 200},
@@ -17,12 +17,21 @@ export default function Home() {
 
   return (
     <main className="flex min-h-screen flex-col items-start justify-between p-24">
-      <div className="icons-container">
+      <div className="hidden md:flex icons-container">
         <h2 className="text-gray-700">Main stack</h2>
         <h3 className="text-gray-600">click on the icon to see description</h3>  
         {Object.entries(images).map(([key, {src, width}]) => (
           <Image key={key} className={`${key}-icon`} src={src} width={width} height={200} alt="" />
         ))}
+      </div>
+      <div className="flex md:hidden icons-container">
+        <h2 className="text-gray-700">Main stack</h2>        
+        <h3 className="text-gray-600">click on the icon to see description</h3>
+        <div className="icons-container-mobile">  
+        {Object.entries(images).map(([key, {src, width}]) => (
+          <Image key={key} className={`${key}-icon`} src={src} width={width} height={200} alt="" />
+        ))}
+      </div>
       </div>
     </main>
   );
