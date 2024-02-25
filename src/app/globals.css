@@ -17,13 +17,7 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+background-color: rgb(255, 239, 229)
 }
 
 @layer utilities {
@@ -32,6 +26,46 @@ body {
   }
 }
 
+main {
+position: relative;
+padding: 5%
+}
+
 header {
 border: groove 3px rgb(175, 166, 166)
 }
+
+h2 {
+font-size: 1.5rem;
+}
+
+.icons-container {
+position: absolute;
+top: 0px;
+right: 0px;
+gap: 10px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+transform: scale(0.85);
+}
+
+.next-icon {
+border-radius: 50%;
+transform: scaleX(0.8);
+}
+
+.rust-icon {
+filter: invert(1);
+border-radius: 50%;
+}
+
+.tailwind-icon {
+border-radius: 50%;
+overflow: hidden;
+transform: scaleX(0.8);
+padding: 3px;
+border: solid rgb(34, 34, 34) 3px;
+}
+
