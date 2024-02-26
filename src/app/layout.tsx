@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import TrpcProvider from "./_trpc/TrpcProvider";
 import AuthProvider from "./_context/AuthProvider";
+import Link from "next/link";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,7 +24,12 @@ export default function RootLayout({
           <TrpcProvider>
             <header className="bg-gray-700 p-4 mt-3">
               <h1 className="text-gray-100">Javier Bravo Zapico</h1>
-              <h2 className="text-gray-100">Frontend Developer</h2>  
+              <h2 className="text-gray-100">Frontend Developer</h2> 
+              <nav>
+              <Link href='/'><li className="text-gray-100">Home -</li></Link>
+                <Link href='/latest'><li className="text-gray-100">Latest Project -</li></Link>
+                <li className="text-gray-100">Contact</li> 
+              </nav> 
             </header>
             {children}
             </TrpcProvider>
