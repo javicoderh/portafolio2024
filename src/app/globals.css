@@ -81,7 +81,7 @@ gap: 10px;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-transform: scale(0.75);
+transform: scale(0.75) translateY(-10%);
 }
 
 .icons-container-mobile {
@@ -122,7 +122,7 @@ animation: rotate 6s linear infinite;
 
 .info {
 position: relative;
-width: 60vw;
+width: 70vw;
 height: 80vh;
 overflow: hidden;
 padding: 15px;
@@ -149,7 +149,7 @@ color: rgb(88, 130, 192)
 position: absolute;
 left: 150px;
 top: 0px;
-font-size: 5rem;
+font-size: 3rem;
 font-family: Arial, Helvetica, sans-serif;
 animation: verticalin 1s linear forwards;
 text-align: center;
@@ -176,7 +176,8 @@ transform: translateX(70%) translateY(70%);
 border: solid 3px goldenrod;
 border-radius: 5%;
 margin-bottom: 1rem;
-transform: scaleX(1.7)
+transform: scaleX(1.7);
+box-shadow: 0px 0px 40px 5px rgb(233, 211, 255);
 }
 
 .content-latest {
@@ -187,4 +188,8 @@ transform: scaleX(1.7)
 font-family: Arial, Helvetica, sans-serif ;
 font-size: 1rem;
 transform: translate(-6%);
+}
+
+.resized {
+transform: scale(0.7)
 }
