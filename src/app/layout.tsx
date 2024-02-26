@@ -22,7 +22,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <AuthProvider>
           <TrpcProvider>
-            <header className="bg-gray-700 p-4 mt-3">
+            <header className="bg-gray-700 p-4 pl-20 mt-3">
               <h1 className="text-gray-100">Javier Bravo Zapico</h1>
               <h2 className="text-gray-100">Frontend Developer</h2> 
               <nav>
