@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import latest from '../../../public/latest.jpeg'
+import ramen from '../../../public/ramen.png'
 
 const LatestScreen = () => {
  
@@ -23,6 +24,7 @@ return (
                 It is a real project and is under construction. <br />        
             </p>
         </div>
+        <Image className="ramen-latest" src={ramen} width={400} height={200} alt="" />
   </div>
 )}
 

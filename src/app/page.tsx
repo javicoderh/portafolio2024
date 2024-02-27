@@ -12,6 +12,7 @@ import NextScreen from "./_components/next";
 import PostgresScreen from "./_components/postgres";
 import TailwindScreen from "./_components/tailwind";
 import AboutScreen from "./_components/about";
+import ramen from '../../public/ramen.png'
 
 export default function Home() {
   const [screen, setScreen] = useState(<AboutScreen />);
@@ -67,6 +68,7 @@ export default function Home() {
           ))}
         </div>
       </div>
+      <Image className="ramen" src={ramen} width={400} height={200} alt="" />
     </main>
   );
 }
