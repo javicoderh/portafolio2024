@@ -181,7 +181,7 @@ transform: translateX(70%) translateY(70%);
 .tailp {
   position: absolute;
   font-family: Arial, Helvetica, sans-serif;
-  transform: translateX(100%) translateY(180%);
+  transform: translateX(90%) translateY(180%);
 }
 
 .ramen {
