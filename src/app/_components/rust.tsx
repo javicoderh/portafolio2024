@@ -9,7 +9,7 @@ return (
     <h1 className="vertical-tit">R <br /> U<br /> S <br /> T </h1>
     <div className="content">
         <p className="text-gray 600 rustp">
-          On rust i read and practiced the entire  book of "The Rust Programming Language" <br />
+          On rust i read and practiced the entire  book of The Rust Programming Language <br />
           i also made some little softwares like a text scrapper to find some phrases or keywords, <br />
           text formatters, an Api with drinks and their recipes , among others. I'm currently learning <br />
           real uses for multithreads

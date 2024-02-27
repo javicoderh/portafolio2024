@@ -187,8 +187,8 @@ transform: translateX(70%) translateY(70%);
 .ramen {
 transform: translateX(-10%) translateY(-80%) rotate(0deg);
 filter: drop-shadow(0px 0px 10px rgba(187, 56, 56, 0.7))
-            drop-shadow(0px 0px 10px rgba(231, 125, 125, 0.6))
-            drop-shadow(0px 100px 10px rgba(255, 1, 1, 0.5));
+        drop-shadow(0px 0px 10px rgba(231, 125, 125, 0.6))
+        drop-shadow(0px 100px 10px rgba(255, 1, 1, 0.5));
 }
 
 .ramen-latest {
