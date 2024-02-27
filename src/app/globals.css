@@ -192,7 +192,7 @@ filter: drop-shadow(0px 0px 10px rgba(187, 56, 56, 0.7))
 }
 
 .ramen-latest {
-  transform: translateX(-10%) translateY(0%) rotate(0deg);
+  transform: scale(0.85) translateX(-10%) translateY(-20%) rotate(0deg);
   filter: drop-shadow(0px 0px 0px 5pxx orange);
   filter: drop-shadow(0px 0px 20px rgba(255, 238, 238, 1))
               
