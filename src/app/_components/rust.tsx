@@ -7,6 +7,17 @@ return (
     <div className="info">
     <h1 className="horizontal-tit">Rust</h1>
     <h1 className="vertical-tit">R <br /> U<br /> S <br /> T </h1>
+    <div className="content">
+        <p className="text-gray 600 rustp">
+          On rust i read and practiced the entire  book of "The Rust Programming Language" <br />
+          i also made some little softwares like a text scrapper to find some phrases or keywords, <br />
+          text formatters, an Api with drinks and their recipes , among others. I'm currently learning <br />
+          real uses for multithreads
+          <br />
+          i studied smart pointers, data structures, advanced types, traits, hashmaps and other rust features. <br />
+          it's not my best language but i'm getting into it.    
+        </p>
+    </div>
   </div>
 )}
 

@@ -172,11 +172,23 @@ font-family: Arial, Helvetica, sans-serif;
 transform: translateX(70%) translateY(70%);
 }
 
+.rustp {
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  transform: translateX(100%) translateY(80%);
+  }
+
+.tailp {
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  transform: translateX(100%) translateY(180%);
+}
+
 .latest-img {
 border: solid 3px goldenrod;
 border-radius: 5%;
 margin-bottom: 1rem;
-transform: scaleX(1.7);
+transform: scaleX(1.7) translateX(-2%);
 box-shadow: 0px 0px 40px 5px rgb(233, 211, 255);
 }
 

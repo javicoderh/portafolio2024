@@ -15,7 +15,7 @@ return (
            <Image className="latest-img" src={latest} width={200} height={200} alt="" />
             </a>
             <p className=" text-gray-600 latestp">
-                Vuelca <br />
+                <span className="text-gray-800">Vuelca</span><br />
                 is a directory of sustainable enterprises<br />  
                 based on permaculture principles. <br />     
                 this project is made with next.js, typescript <br />
