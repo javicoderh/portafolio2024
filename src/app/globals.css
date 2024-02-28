@@ -232,7 +232,7 @@ border-top: solid 2px rgb(160, 160, 160);
 height: 20vh;
 display: flex;
 flex-direction: column;
-transform: translateY(-250%);
+transform: translateY(-300%);
 z-index: -1;
 align-items: center;
 color:rgb(88, 88, 88)
