@@ -49,8 +49,14 @@
   }
 }
 
+html {
+height: 100vh;
+}
+
 body {
-background-color: rgb(255, 239, 229)
+background-color: rgb(255, 239, 229);
+height: 100vh;
+overflow: hidden;
 }
 
 @layer utilities {
@@ -218,4 +224,16 @@ transform: translate(-6%);
 
 .resized {
 transform: scale(0.7)
+}
+
+footer {
+position: relative;
+border-top: solid 2px rgb(160, 160, 160);
+height: 20vh;
+display: flex;
+flex-direction: column;
+transform: translateY(-250%);
+z-index: -1;
+align-items: center;
+color:rgb(88, 88, 88)
 }

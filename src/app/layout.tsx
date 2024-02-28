@@ -19,7 +19,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body>
         <AuthProvider>
           <TrpcProvider>
             <header className="bg-gray-700 p-4 pl-20 mt-3">
@@ -32,6 +32,7 @@ export default function RootLayout({
               </nav> 
             </header>
             {children}
+            <footer>life is good</footer>
             </TrpcProvider>
         </AuthProvider>
       </body>
