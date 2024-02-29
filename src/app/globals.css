@@ -184,7 +184,7 @@ transform: translateX(70%) translateY(70%);
 .aboutp-mobile {
   position: absolute;
   font-family: Arial, Helvetica, sans-serif;
-  transform: translateX(10%) translateY(50%);
+  transform: translateX(0%) translateY(50%);
   }
 
 .rustp {
