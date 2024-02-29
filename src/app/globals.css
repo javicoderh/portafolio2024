@@ -312,7 +312,7 @@ transform: translateY(70%);
 }
 
 .goku {
-transform: translateY(-24%);
+transform: translateY(-24%) translateX(100%);
 animation: auraAnimation 3s infinite alternate;
 }
 
