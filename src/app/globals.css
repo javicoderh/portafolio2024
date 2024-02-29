@@ -228,7 +228,6 @@ transform: scale(0.7)
 
 footer {
 position: relative;
-border-top: solid 2px rgb(160, 160, 160);
 height: 20vh;
 display: flex;
 flex-direction: column;
