@@ -3,7 +3,9 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import TrpcProvider from "./_trpc/TrpcProvider";
 import AuthProvider from "./_context/AuthProvider";
+import goku from '../../public/goku.png'
 import Link from "next/link";
+import Image from "next/image";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -41,7 +43,10 @@ export default function RootLayout({
               </nav> 
             </header>
             {children}
-            <footer></footer>
+            <footer>
+              <Image className="goku" src={goku} width={300} height={100} alt="" />
+              <h3 className="footer-text">Sleep, code, eat...</h3>
+            </footer>
             </TrpcProvider>
         </AuthProvider>
       </body>
