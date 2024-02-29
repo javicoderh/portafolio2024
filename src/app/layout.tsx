@@ -28,11 +28,11 @@ export default function RootLayout({
               <nav>
               <Link href='/'><li className="text-gray-100">Home -</li></Link>
                 <Link href='/latest'><li className="text-gray-100">Latest Project -</li></Link>
-                <li className="text-gray-100">Contact</li> 
+                <Link href='/contact'><li className="text-gray-100">Contact</li> </Link>
               </nav> 
             </header>
             {children}
-            <footer>life is good</footer>
+            <footer></footer>
             </TrpcProvider>
         </AuthProvider>
       </body>
