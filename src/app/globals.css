@@ -18,17 +18,17 @@
 
 @keyframes auraAnimation {
   0% {
-    filter: drop-shadow(0 0 10px #ec6205); 
+    filter: drop-shadow(0 -20px 20px #ec6205); 
   }
   50% {
-    filter: drop-shadow(0 0 10px #3effd5); 
+    filter: drop-shadow(0 -20px 30px #ffa53e); 
   }
   75% {
-    filter: drop-shadow(0 0 20px #3effd5)
-            drop-shadow(0 0 30px #00a07d); 
+    filter: drop-shadow(0 -20px 20px #ff3e3e)
+            drop-shadow(0 -20px 30px #aa5006); 
   }
   100% {
-    filter: drop-shadow(0 0 30px #e92c13); 
+    filter: drop-shadow(0 -20px 30px #e92c13); 
   }
 }
 
