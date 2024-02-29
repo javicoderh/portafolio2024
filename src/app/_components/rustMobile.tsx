@@ -1,24 +1,24 @@
 import React from "react";
 
-const NextMobileScreen = () => {
+const RustMobileScreen = () => {
  
 return (
 
     <div className="block md:hidden next-mobile">
-    <h1 className="text-gray-800">Next</h1>
     <div className="content">
-        <p className="text-gray 600">
-          Next is actually my best stack, working together with prisma and trpc i guess is a very <br />
-          functional stack specially because you can still use all the resources from React and Js. <br />
-          If you check the project on the latest project section, you can find in Vuelca most of the <br /> 
-          features  from next.js, prisma and trpc, also you can find my html, css, react and postgres <br /> 
-          knowledge. 
+    <p className="text-gray 600 rust-mobile">
+        Rust: <br />
+        <br />
+          On rust i read and practiced the entire  book of The Rust Programming Language <br />
+          i also made some little softwares like a text scrapper to find some phrases or keywords, <br />
+          text formatters, an Api with drinks and their recipes , among others. I am currently learning <br />
+          real uses for multithreads
           <br />
-          <br />
-          This project was made using Next.js 
+          i studied smart pointers, data structures, advanced types, traits, hashmaps and other rust features. <br />
+          it is not my best language but i am getting into it.    
         </p>
     </div>
   </div>
 )}
 
-export default NextMobileScreen;
+export default RustMobileScreen;
