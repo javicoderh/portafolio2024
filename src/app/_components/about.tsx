@@ -4,7 +4,7 @@ const AboutScreen = () => {
  
 return (
 
-    <div className="info">
+    <div className="hidden md:block info">
     <h1 className="horizontal-tit">About me</h1>
     <h1 className="vertical-tit">A <br /> B <br /> O <br /> U <br /> T <br /> <br /> M <br /> E</h1>
     <div className="content">

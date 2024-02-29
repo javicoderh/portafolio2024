@@ -1,16 +1,13 @@
 import React from "react";
-import NextMobileScreen from "./nextMobile";
 
-const NextScreen = () => {
+const NextMobileScreen = () => {
  
 return (
 
-    <div className="md:block">
-    <h1 className="hidden md:block horizontal-tit">Next</h1>
-    <h1 className="hidden md:block vertical-tit">N <br /> E <br /> X <br /> T</h1>
-    <NextMobileScreen />
-    <div className="hidden md:block content">
-        <p className="hidden md:block text-gray 600 rustp">
+    <div className="block md:hidden next-mobile">
+    <h1 className="">Next</h1>
+    <div className="content">
+        <p className="text-gray 600">
           Next is actually my best stack, working together with prisma and trpc i guess is a very <br />
           functional stack specially because you can still use all the resources from React and Js. <br />
           If you check the project on the latest project section, you can find in Vuelca most of the <br /> 
@@ -24,4 +21,4 @@ return (
   </div>
 )}
 
-export default NextScreen;
+export default NextMobileScreen;

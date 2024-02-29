@@ -22,10 +22,19 @@ export default function RootLayout({
       <body>
         <AuthProvider>
           <TrpcProvider>
-            <header className="bg-gray-700 p-4 pl-20 mt-3">
+            <header className="hidden md:block bg-gray-700 p-4 pl-20 mt-3">
+              <h1 className="text-gray-100">Javier Bravo Zapico</h1>
+              <h2 className="text-gray-100">Front-end Developer</h2> 
+              <nav>
+              <Link href='/'><li className="text-gray-100">Home -</li></Link>
+                <Link href='/latest'><li className="text-gray-100">Latest Project -</li></Link>
+                <Link href='/contact'><li className="text-gray-100">Contact</li> </Link>
+              </nav> 
+            </header>
+            <header className="block md:hidden bg-gray-700 p-4 pl-20 mt-3">
               <h1 className="text-gray-100">Javier Bravo Zapico</h1>
               <h2 className="text-gray-100">Frontend Developer</h2> 
-              <nav>
+              <nav className="mobile-nav">
               <Link href='/'><li className="text-gray-100">Home -</li></Link>
                 <Link href='/latest'><li className="text-gray-100">Latest Project -</li></Link>
                 <Link href='/contact'><li className="text-gray-100">Contact</li> </Link>
