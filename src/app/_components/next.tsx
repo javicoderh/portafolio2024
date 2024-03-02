@@ -6,7 +6,7 @@ const NextScreen = () => {
 return (
 
     <div className="md:block">
-    <h1 className="hidden md:block horizontal-tit">Next</h1>
+    <h1 className="hidden md:block orange-like horizontal-tit">Next</h1>
     <h1 className="hidden md:block vertical-tit">N <br /> E <br /> X <br /> T</h1>
     <NextMobileScreen />
     <div className="hidden md:block content">
