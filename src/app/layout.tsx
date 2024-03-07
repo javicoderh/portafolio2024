@@ -49,7 +49,7 @@ export default function RootLayout({
             </footer>
             <footer className="footer-mobile block md:bhidden">
               <Image className="goku-mobile block md:hidden" src={goku} width={300} height={100} alt="" />
-              <h3 className="footer-text">Sleep, code, eat...</h3>
+              <h3 className="block md:hidden footer-text-mobile">Sleep, code, eat...</h3>
             </footer>
             </TrpcProvider>
         </AuthProvider>
