@@ -316,7 +316,24 @@ transform: translateY(-24%) translateX(100%);
 animation: auraAnimation 12s infinite alternate;
 }
 
+.goku-mobile {
+  transform: translateY(-25%) translateX(30%);
+  animation: auraAnimation 12s infinite alternate;
+  }
+
 .footer-text {
 font-size: 1.5rem;
 transform: translateX(160%);
+}
+
+.footer-mobile {
+    position: relative;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    transform: translateY(0%);
+    z-index: -1;
+    align-items: center;
+    color:rgb(88, 88, 88);
+    border-bottom: solid 2px rgb(85, 85, 85)
 }

@@ -43,8 +43,12 @@ export default function RootLayout({
               </nav> 
             </header>
             {children}
-            <footer>
-              <Image className="goku" src={goku} width={300} height={100} alt="" />
+            <footer className="hidden md:block">
+              <Image className="goku hidden md:block" src={goku} width={300} height={100} alt="" />
+              <h3 className="footer-text">Sleep, code, eat...</h3>
+            </footer>
+            <footer className="footer-mobile block md:bhidden">
+              <Image className="goku-mobile block md:hidden" src={goku} width={300} height={100} alt="" />
               <h3 className="footer-text">Sleep, code, eat...</h3>
             </footer>
             </TrpcProvider>
