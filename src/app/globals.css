@@ -242,7 +242,7 @@ box-shadow: 0px 0px 40px 5px rgb(233, 211, 255);
 }
 
 .content-latest-mobile {
-  transform: translateX(30%) translateY(10%) ;
+  transform: translateX(30%) translateY(15%) ;
 }
 
 .latestp {
@@ -312,18 +312,18 @@ transform: translateY(70%);
 }
 
 .goku {
-transform: translateY(-5%) translateX(490%);
+transform: translateY(-25%) translateX(360%);
 animation: auraAnimation 12s infinite alternate;
 }
 
 .goku-mobile {
-transform: translateY(-25%) translateX(20%);
+transform: translateY(-25%) translateX(20%) scale(0.7);
 animation: auraAnimation 12s infinite alternate;
 }
 
 .footer-text {
 font-size: 1.5rem;
-transform: translateX(60%) translateY(-100%);
+transform: translateX(60%) translateY(-210%);
 }
 
 .footer-text-mobile {
@@ -340,5 +340,6 @@ transform: translateY(0%);
 z-index: -1;
 align-items: center;
 color:rgb(88, 88, 88);
-border-bottom: solid 2px rgb(85, 85, 85)
+border-bottom: solid 2px rgb(85, 85, 85);
+transform: translateY(50%);
 }
