@@ -17,7 +17,7 @@ return (
         join tables and relate tables, also i am learning about stored procedures <br />  to increase my action range
         i can connect to postgres databases with every language i know. <br /> 
         <br />
-      If you check on the latest project section you will find Vuelca and that project's <br />
+      If you check on the latest project section you will find Vuelca and vuelca <br />
       database was made using postgres 
       </p>
     </div>
