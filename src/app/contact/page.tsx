@@ -28,12 +28,11 @@ return (
         <h3>/javierzapico</h3>        
        </div>
        </Link>
-       <div className="flex md:hidden item-container">
        <a href="mailto:javier.bravoz@mail.udp.cl"> 
+       <div className="flex md:hidden item-container">       
         <Image src={gmail} width={50} height={100} alt="" />
-        <h3>javier.bravoz@mail.udp.cl</h3>
-        </a>
-       </div>
+        <h3>javier.bravoz@mail.udp.cl</h3>       
+       </div> </a>
        <div className="flex md:hidden item-container">
         <Image src={cellphone} width={50} height={100} alt="" />
         <h3>+56920536330</h3>        
