@@ -127,11 +127,15 @@ transform: scale(0.75) translateY(-10%);
 
 .next-icon {
 border-radius: 50%;
+cursor: pointer;
+transition: 0.3s;
 }
 
 .rust-icon {
 filter: invert(1);
 border-radius: 50%;
+cursor: pointer;
+transition: 0.3s;
 }
 
 .tailwind-icon {
@@ -140,10 +144,14 @@ overflow: hidden;
 transform: scaleX(0.8);
 padding: 3px;
 border: solid rgb(34, 34, 34) 3px;
+cursor: pointer;
+transition: 0.3s;
 }
 
 .react-icon {
 animation: rotate 6s linear infinite;
+cursor: pointer;
+transition: 0.3s;
 }
 
 .info {
@@ -152,6 +160,19 @@ width: 70vw;
 height: 80vh;
 padding: 15px;
 position: relative;
+}
+
+.postgres-icon {
+cursor: pointer;
+transition: 0.3s;
+}
+
+.rust-icon:hover, .react-icon:hover, .postgres-icon:hover, .next-icon:hover {
+transform: scale(1.035)
+}
+
+.tailwind-icon:hover {
+transform: scale(1.005);
 }
 
 .horizontal-tit {
@@ -342,4 +363,8 @@ align-items: center;
 color:rgb(88, 88, 88);
 border-bottom: solid 2px rgb(85, 85, 85);
 transform: translateY(50%);
+}
+
+.icons:hover {
+cursor: pointer;
 }
