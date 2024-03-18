@@ -20,13 +20,17 @@ return (
         <Image src={github} width={50} height={100} alt="" />
         <h3>/javicorderh</h3>
        </div>
-       <div className="flex md:hidden item-container">
+       <Link href="https://www.linkedin.com/in/javierzapico/" target="_blank">
+       <div className="flex md:hidden item-container">        
         <Image src={linkedin} width={50} height={100} alt="" />
-        <h3>/javierzapico</h3>
+        <h3>/javierzapico</h3>        
        </div>
+       </Link>
        <div className="flex md:hidden item-container">
+       <a href="mailto:javier.bravoz@mail.udp.cl"> 
         <Image src={gmail} width={50} height={100} alt="" />
         <h3>javier.bravoz@mail.udp.cl</h3>
+        </a>
        </div>
        <div className="flex md:hidden item-container">
         <Image src={cellphone} width={50} height={100} alt="" />
