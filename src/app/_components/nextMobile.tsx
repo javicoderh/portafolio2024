@@ -2,7 +2,7 @@ import React from "react";
 
 const NextMobileScreen = () => {
   return (
-    <div className="block md:hidden content">
+    <div className="flex md:hidden content">
       <h2 className="mobile-tit">Next</h2>
       <p className="aboutp-mobile">
         Next.js is my strongest stack. Combined with Prisma and tRPC, it gives

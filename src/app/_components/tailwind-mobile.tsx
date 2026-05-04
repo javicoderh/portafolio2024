@@ -2,7 +2,7 @@ import React from "react";
 
 const TailwindMobileScreen = () => {
   return (
-    <div className="block md:hidden content">
+    <div className="flex md:hidden content">
       <h2 className="mobile-tit">Tailwind</h2>
       <p className="aboutp-mobile">
         I build interfaces with Tailwind&apos;s default utilities, and write

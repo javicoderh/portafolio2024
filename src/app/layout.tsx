@@ -38,7 +38,7 @@ export default function RootLayout({
                 </div>
                 <nav className="site-nav">
                   <Link href="/"><li>Home</li></Link>
-                  <Link href="/latest"><li>Latest Project</li></Link>
+                  <Link href="/latest"><li>Projects</li></Link>
                   <Link href="/contact"><li>Contact</li></Link>
                 </nav>
               </div>
@@ -51,7 +51,7 @@ export default function RootLayout({
                 </div>
                 <nav className="site-nav site-nav--mobile">
                   <Link href="/"><li>Home</li></Link>
-                  <Link href="/latest"><li>Latest</li></Link>
+                  <Link href="/latest"><li>Projects</li></Link>
                   <Link href="/contact"><li>Contact</li></Link>
                 </nav>
               </div>

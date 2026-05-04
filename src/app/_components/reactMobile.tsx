@@ -2,7 +2,7 @@ import React from "react";
 
 const ReactMobileScreen = () => {
   return (
-    <div className="block md:hidden content">
+    <div className="flex md:hidden content">
       <h2 className="mobile-tit">React</h2>
       <p className="aboutp-mobile">
         React was my favourite framework before Next.js, and I&apos;m still very

@@ -9,7 +9,7 @@ const RustScreen = () => {
         R <br /> U <br /> S <br /> T
       </h1>
       <RustMobileScreen />
-      <div className="hidden md:block content">
+      <div className="hidden md:flex content">
         <p className="rustp">
           I read and worked through the entire Rust Programming Language book,
           and I&apos;ve built small tools with it: a text scrapper for keywords and

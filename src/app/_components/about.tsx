@@ -8,7 +8,7 @@ const AboutScreen = () => {
         A <br /> B <br /> O <br /> U <br /> T <br /> <br /> M <br /> E
       </h1>
 
-      <div className="hidden md:block content">
+      <div className="hidden md:flex content">
         <p className="aboutp">
           <span className="lead-name">I&apos;m Javier</span>, a 36-year-old developer from Chile.
           I started coding in 2020 with HTML, CSS and JavaScript at Coderhouse,
@@ -40,7 +40,7 @@ const AboutScreen = () => {
         </div>
       </div>
 
-      <div className="block md:hidden content">
+      <div className="flex md:hidden content">
         <h2 className="mobile-tit">About me</h2>
         <p className="aboutp-mobile">
           <span className="lead-name">I&apos;m Javier</span>, a 36-year-old developer from Chile.

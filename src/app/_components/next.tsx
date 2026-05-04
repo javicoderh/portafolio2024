@@ -9,7 +9,7 @@ const NextScreen = () => {
         N <br /> E <br /> X <br /> T
       </h1>
       <NextMobileScreen />
-      <div className="hidden md:block content">
+      <div className="hidden md:flex content">
         <p className="rustp">
           Next.js is my strongest stack. Combined with Prisma and tRPC, it
           gives me a fully type-safe pipeline from the database all the way

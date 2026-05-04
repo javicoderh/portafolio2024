@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="220" viewBox="0 0 220 220">
+  <defs>
+    <clipPath id="clip">
+      <rect width="220" height="220" rx="14"/>
+    </clipPath>
+  </defs>
+
+  <!-- Background -->
+  <rect width="220" height="220" rx="14" fill="#1a1714"/>
+
+  <!-- Red header -->
+  <rect x="0" y="0" width="220" height="54" fill="#c8421f" clip-path="url(#clip)"/>
+  <text x="110" y="25" font-family="system-ui,sans-serif" font-size="13" font-weight="700" fill="#ffefe5" text-anchor="middle" letter-spacing="2.5">DEV STASH</text>
+  <text x="110" y="43" font-family="system-ui,sans-serif" font-size="8.5" font-weight="400" fill="#ffd8c0" text-anchor="middle" letter-spacing="3">ROUTINE</text>
+
+  <!-- Subtitle -->
+  <text x="110" y="70" font-family="system-ui,sans-serif" font-size="7.5" fill="#7a6f68" text-anchor="middle" letter-spacing="2">DAILY · AUTO-UPDATED</text>
+
+  <!-- Separator -->
+  <line x1="20" y1="78" x2="200" y2="78" stroke="#2d2926" stroke-width="1"/>
+
+  <!-- Rust -->
+  <circle cx="32" cy="96" r="4.5" fill="#c8421f"/>
+  <text x="45" y="100" font-family="system-ui,sans-serif" font-size="9" font-weight="600" fill="#ffefe5" opacity="0.9">Rust exercises</text>
+  <rect x="45" y="105" width="72" height="2.5" rx="1.25" fill="#ffefe5" opacity="0.12"/>
+  <rect x="45" y="110" width="48" height="2.5" rx="1.25" fill="#ffefe5" opacity="0.08"/>
+
+  <!-- AI News -->
+  <circle cx="32" cy="128" r="4.5" fill="#4dd0ff"/>
+  <text x="45" y="132" font-family="system-ui,sans-serif" font-size="9" font-weight="600" fill="#ffefe5" opacity="0.9">Official AI news</text>
+  <rect x="45" y="137" width="84" height="2.5" rx="1.25" fill="#ffefe5" opacity="0.12"/>
+  <rect x="45" y="142" width="58" height="2.5" rx="1.25" fill="#ffefe5" opacity="0.08"/>
+
+  <!-- Agents & Ideas -->
+  <circle cx="32" cy="160" r="4.5" fill="#d4a017"/>
+  <text x="45" y="164" font-family="system-ui,sans-serif" font-size="9" font-weight="600" fill="#ffefe5" opacity="0.9">Agents &amp; ideas</text>
+  <rect x="45" y="169" width="68" height="2.5" rx="1.25" fill="#ffefe5" opacity="0.12"/>
+  <rect x="45" y="174" width="44" height="2.5" rx="1.25" fill="#ffefe5" opacity="0.08"/>
+
+  <!-- Bottom bar -->
+  <rect x="0" y="200" width="220" height="20" fill="#c8421f" opacity="0.08" clip-path="url(#clip)"/>
+  <text x="110" y="214" font-family="system-ui,sans-serif" font-size="7" fill="#c8421f" text-anchor="middle" letter-spacing="0.8" opacity="0.6">dev-stash-routine.vercel.app</text>
+</svg>

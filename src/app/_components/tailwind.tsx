@@ -9,7 +9,7 @@ const TailwindScreen = () => {
         T <br /> A <br /> I <br /> L <br /> W <br /> I <br /> N <br /> D
       </h1>
       <TailwindMobileScreen />
-      <div className="hidden md:block content">
+      <div className="hidden md:flex content">
         <p className="tailp">
           I build interfaces with Tailwind&apos;s default utilities, and when
           a project needs more I write custom plugins or work with the ones

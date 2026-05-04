@@ -9,7 +9,7 @@ const ReactScreen = () => {
         R <br /> E <br /> A <br /> C <br /> T
       </h1>
       <ReactMobileScreen />
-      <div className="hidden md:block content">
+      <div className="hidden md:flex content">
         <p className="rustp">
           React was my favourite framework before I moved to Next.js, and I&apos;m
           still very comfortable with it: contexts, the new router, hooks,

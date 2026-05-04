@@ -9,7 +9,7 @@ const PostgresScreen = () => {
         P <br /> O <br /> S <br /> T <br /> G <br /> R <br /> E <br /> S
       </h1>
       <PostgresMobileScreen />
-      <div className="hidden md:block content">
+      <div className="hidden md:flex content">
         <p className="rustp">
           PostgreSQL is the database I work with daily and the one I&apos;m most
           comfortable with. I design schemas, wire them into apps, write
