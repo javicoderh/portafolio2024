@@ -61,7 +61,7 @@ export default function RootLayout({
               <Image className="goku" src={goku} width={260} height={260} alt="" priority />
             </div>
             <footer className="site-footer">
-              <h3 className="footer-text">Sleep, code, eat…</h3>
+              <h3 className="footer-text">Sleep, read, code, exercise, eat…</h3>
             </footer>
           </TrpcProvider>
         </AuthProvider>
