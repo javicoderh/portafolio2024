@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
-import { Inter, Space_Grotesk } from "next/font/google";
+import { Caveat, Inter, Space_Grotesk } from "next/font/google";
 import "./globals.css";
 import TrpcProvider from "./_trpc/TrpcProvider";
 import AuthProvider from "./_context/AuthProvider";
 import goku from '../../public/goku.png';
+import FooterTypewriter from "./_components/FooterTypewriter";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -12,6 +13,11 @@ const spaceGrotesk = Space_Grotesk({
   subsets: ["latin"],
   variable: "--font-display",
   weight: ["500", "600", "700"],
+});
+const caveat = Caveat({
+  subsets: ["latin"],
+  variable: "--font-script",
+  weight: ["700"],
 });
 
 export const metadata: Metadata = {
@@ -26,7 +32,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${inter.variable} ${spaceGrotesk.variable}`}>
+    <html lang="en" className={`${inter.variable} ${spaceGrotesk.variable} ${caveat.variable}`}>
       <body className={inter.className}>
         <AuthProvider>
           <TrpcProvider>
@@ -57,11 +63,12 @@ export default function RootLayout({
               </div>
             </header>
             {children}
-            <div className="goku-fixed" aria-hidden="true">
+            <div className="goku-fixed">
               <Image className="goku" src={goku} width={260} height={260} alt="" priority />
+              <FooterTypewriter />
             </div>
             <footer className="site-footer">
-              <h3 className="footer-text">Sleep, read, code, exercise, eat…</h3>
+              <h3 className="footer-text">Sleep, read, code, exercise, eat, sleep…</h3>
             </footer>
           </TrpcProvider>
         </AuthProvider>

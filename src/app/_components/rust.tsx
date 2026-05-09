@@ -12,7 +12,7 @@ const RustScreen = () => {
       <div className="hidden md:flex content">
         <p className="rustp">
           I read and worked through the entire Rust Programming Language book,
-          and I&apos;ve built small tools with it: a text scrapper for keywords and
+          and I&apos;ve built small tools with it: a text scraper for keywords and
           phrases, text formatters, an API serving drink recipes, among others.
           I&apos;m currently exploring real-world uses of multithreading.
         </p>

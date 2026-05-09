@@ -6,7 +6,7 @@ const RustMobileScreen = () => {
       <h2 className="mobile-tit">Rust</h2>
       <p className="aboutp-mobile">
         I worked through the entire Rust Programming Language book and built
-        small tools with it: a text scrapper, text formatters, an API serving
+        small tools with it: a text scraper, text formatters, an API serving
         drink recipes. Currently exploring real-world uses of multithreading.
       </p>
       <p className="aboutp-mobile">

@@ -46,9 +46,9 @@ export default function Home() {
           type="button"
           className="back-btn"
           onClick={() => setActive('about')}
-          aria-label="Back to About me"
+          aria-label="Back to About Me"
         >
-          <span aria-hidden="true">←</span> About me
+          <span aria-hidden="true">←</span> About Me
         </button>
       )}
 
@@ -56,7 +56,7 @@ export default function Home() {
 
       <aside className="hidden md:flex icons-container">
         <h2>Main stack</h2>
-        <h3>click an icon to read more</h3>
+        <h3>Click an icon to read more</h3>
         {stackItems.map(({ key, src, width }) => (
           <button
             key={key}
@@ -73,7 +73,7 @@ export default function Home() {
 
       <aside className="flex md:hidden icons-container icons-container--mobile-wrap">
         <h2>Main stack</h2>
-        <h3>click an icon to read more</h3>
+        <h3>Click an icon to read more</h3>
         <div className="icons-container-mobile">
           {stackItems.map(({ key, src, width }) => (
             <button
