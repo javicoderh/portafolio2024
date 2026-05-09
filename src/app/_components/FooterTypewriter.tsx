@@ -35,7 +35,7 @@ export default function FooterTypewriter() {
       ? currentPhrase.span
       : null;
   const baseMessage = currentPhrase?.message ?? "";
-  const shouldAppendSpan = Boolean(spanText) && !baseMessage.includes(spanText);
+  const shouldAppendSpan = spanText !== null && !baseMessage.includes(spanText);
   const fullMessage = `${baseMessage}${shouldAppendSpan ? spanText : ""}`;
 
   useEffect(() => {
